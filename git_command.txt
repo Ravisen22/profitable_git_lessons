@@ -13,5 +13,8 @@ Git Remote Commands...
 # git clone (url)
 
 Create new branch...
-# git checkout -b home_page
-
+# git checkout -b home_page (to create and get into the the new branch)
+# git checkout master (before merge go to master first)
+# git merge (Your branch name) (will update master from branch)
+# git push origin master 
+# git branch -d (Your branch name) ...Once you are certain you do not need the branch anymore
